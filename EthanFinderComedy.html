@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title></b>EF Comedy<b></title>
+    <link rel="stylesheet" href="EthanFinderComedy.css">
+  </head>
+  <body>
+
+<div class="container">
+
+<div class="header">
+    <a href="EthanFinderComedy.html" class="home"> <u>Home</u></a>
+    <a href="EFSHOWS.html" class="shows"><u>Shows</u></a>
+    <a href="EFVIDEOS.html" class="videos"><u>Videos</u></a>
+    <a href="EFCONTACT.html" class="contact"><u>Contact</u></a>
+ </div>   
+
+ <div class="bio-box">
+  <div class="bio-left">
+
+    <div class="hptitle">
+  <p class="bio-title"> Ethan Finder's Comedy Website</p>
+ 
+   <p class="bio">
+  Sheesh, look at you. Knowing what dope websites to go to and whatnot. Welcome to Ethan Finders comedy website. Ethan is an up and coming Standup Comedian, 
+ based in Louisville, KY. He is just the <u>coolest</u> guy, let me tell you.  He rides motorcycles! Hes been known to rock a backwards hat!
+He programmed the very webside your eyeballs are glued to at this very moment! WHAT CANT HE DO???? (Besides get laid) Go check out his jokes on YouTube,
+then swing over to the shows tab to see where he is performing next, attend a show, shower him with cash and affection. There is a Contact tab,
+ but probably dont use it unless you are trying to do the same. PEACE 
+</p>
+ </div>
+
+  </div>
+<div class="bottomframe">
+  <p class="tapthatlabel">
+  Press this button if you find Ethan sexually appealing.
+</p>
+ <button class="tapthat">
+  <strong>I'd tap that!</strong>
+</button>
+
+<p class="Vanity">
+  Vanity StatTracker: <span id="counter">0</span>
+</p>
+</div>
+
+<img class="ethanpic" src="Pictures&Icons/HandsomePicture.JPG">
+ </div>
+
+</div>
+
+<script>
+  console.log(localStorage.getItem('Vanitybank'))
+  document.getElementById('counter').textContent = localStorage.getItem('Vanitybank');
+  const button = document.querySelector('.tapthat');
+  const counter = document.getElementById('counter');
+  let count = localStorage.getItem('Vanitybank')
+    if (count === null) {
+      count = 0;
+    }
+    count = Number (count);
+  button.addEventListener('click', function() {
+    count++;
+    counter.textContent = count;
+    localStorage.setItem('Vanitybank', count);
+  });
+</script>
+
+</body>
+
+</html>
+

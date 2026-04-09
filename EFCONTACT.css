@@ -1,0 +1,91 @@
+body {
+  background-color: rgb(114, 7, 7);
+  padding-top: 100px;
+  padding-bottom: 250px;
+}
+@font-face {
+    font-family: 'AlbertusExtraBold';
+    src:url( 'fonts/ALBR85X.ttf');
+    font-weight: 800;
+    font-style: normal;
+}
+.albertus-header {
+    font-family: 'AlbertusExtraBold';
+    font-weight: 800;
+}
+.title{ 
+    font-family: "Times New Roman", serif";
+}
+.header {
+    background-color: lightgrey;
+    height: 75px;
+    border-bottom: 5px solid rgb(0, 0, 0);
+    position: fixed;
+    top: 0;
+    left: 0px;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    text-indent: 15px;
+    width: 100%;
+}   
+.home {
+    font-family: arial;
+    font-size: 25px;
+    margin-left: 0px;
+    margin-right: 20px;
+    cursor: pointer;
+    display: inline-block;
+    color:rgb(0, 0, 0);
+}
+.Shows {
+    font-family: arial;
+    font-size: 25px;
+    margin-left: 0px;
+    margin-right: 20px;
+    cursor: pointer;
+    display: inline-block;
+    color:rgb(0, 0, 0);
+}
+.videos {
+    font-family: arial;
+    font-size: 25px;
+    margin-left: 0px;
+    margin-right: 20px;
+    cursor: pointer;
+    display: inline-block;
+    color:rgb(0, 0, 0);
+}
+.contact {
+    font-family: arial;
+    font-size: 25px;
+    margin-left: 0px;
+    margin-right: 0px;
+    cursor: pointer;
+    display: inline-block;
+    color:rgb(0, 0, 0);
+}
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0px;
+    text-align: center;
+
+}
+.hptitle {
+    position: relative;
+    border-radius: 15px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+    max-height: 75px;
+    max-width: 250px;
+    padding:10px;
+    background:rgba(54, 248, 6, 1);
+    background: radial-gradient(circle, rgb(223, 0, 244) 50%, rgba(54, 248, 6, 1)100%);
+    font-weight: 800px;
+    font-size:20px;
+
+}
