@@ -74,17 +74,28 @@ body {
     text-align: center;
 
 }
+.shows-box {
+    border-color: black;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 15px;
+    padding: 25px;
+    margin: 15px;
+    display: inline-block;
+    font-size: 23px;
+    background-color: lightgrey;
+}
 .hptitle {
-    position: relative;
+    position: flex;
     border-radius: 15px;
     border-width: 5px;
     border-style: solid;
     border-color: black;
     max-height: 75px;
-    max-width: 250px;
+    max-width: 275px;
     padding:10px;
     background:rgba(54, 248, 6, 1);
-    background: radial-gradient(circle, rgb(223, 0, 244) 50%, rgba(54, 248, 6, 1)100%);
+    background: radial-gradient(circle, rgb(29, 16, 208) 50%, rgb(26, 25, 25)100%);
     font-weight: 800px;
     font-size:20px;
 
@@ -176,6 +187,7 @@ body {
     line-height: 25px;
     word-spacing: 0px;
     display: inline-block;
+    text-align: right;
 }
 .tapthat {
     background-color: rgb(35, 29, 29);
@@ -191,6 +203,7 @@ body {
     display: inline-block;
     align-items: bottom;
     width: 175px;
+    text-align: center;
 }
 
 .tapthat:hover {
@@ -212,4 +225,125 @@ body {
     border-width: 5px;
     border-style: ridge;
     font-family: arial;
+}
+.Stitle {
+    font-family: 'AlbertusExtraBold';
+    font-weight: 800;
+    border-bottom: 5px solid black;
+    font-size:large;
+    margin-bottom: 15px;
+    color: rgb(0, 0, 0);
+}
+.Event1 {
+    background:rgb(43, 55, 226);
+    color: white;
+    border-color: black;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 15px;
+    padding:15px;
+}
+.Event2 {
+    background:rgba(54, 248, 6, 1);
+    color: rgb(0, 0, 0);    
+    border-color: black;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 15px;
+    padding: 15px;
+}
+.Event3 {
+    background:rgb(43, 55, 226);
+    color: white;
+    border-color: black;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 15px;
+}
+.Event4 {
+    background:rgba(54, 248, 6, 1);
+    color: rgb(0, 0, 0);
+    border-color: black;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 15px;
+}
+.Event5 {
+    background:rgb(43, 55, 226);
+    color: white;
+    border-color: black;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 15px;
+}
+.Event6 {
+    background:rgba(54, 248, 6, 1);
+    color: rgb(0, 0, 0);
+    border-color: black;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 15px;
+}
+.Ctitle {
+    text-align: center;
+    font-family: 'AlbertusExtraBold';
+    font-weight: 800;
+    border-bottom: 5px solid black;
+    font-size:35px;
+    margin-bottom: 15px;
+    color: rgb(255, 255, 255);
+    display: block;
+}
+.contact-page {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 15px;
+    display: flex;
+}
+.contact-box {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 15px;
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    justify-content: center;
+
+}
+.CEDOG{
+    display:flex;
+    max-width: 400px;
+    margin-left: 100px;
+    border-radius: 175px;
+    border-width: 15px;
+    border-color: rgb(0, 0, 0);
+    border-style:groove
+}
+.contact-info {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding: 10px;
+    color: white;
+    font:arial;
+    font-size: 20px;
+    text-align: center;
+}
+.socials {
+    max-height: 185px;
+    font-family: arial;
+    font-size: 18px;
+    width: 300px;
+    padding: 20px;
+    margin-top: 100px;
+
+    border-radius: 15px;
+    background-color: lightgrey;
+    border-color: rgb(0, 0, 0);
+    border-width: 5px;
+    border-style: ridge;
+    text-indent: 15px;
+    line-height: 25px;
+    vertical-align: center;
+    text-align: center;
 }
