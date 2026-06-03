@@ -87,7 +87,7 @@ body {
     background: radial-gradient(circle, rgb(223, 0, 244) 50%, rgba(54, 248, 6, 1)100%);
     font-weight: 800px;
     font-size:20px;
-
+    color: white;
 }
 .bio-box {
     display: flex;
