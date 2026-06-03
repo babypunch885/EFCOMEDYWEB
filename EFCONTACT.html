@@ -1,19 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title></b>EF Comedy<b></title>
+    <title>EF Comedy</title>
     <link rel="stylesheet" href="EthanFinderComedy.css">
   </head>
   <body>
 
-<div class="container">
+
   
 <div class="header">
-    <a href="EthanFinderComedy.html" class="home"> <u>Home</u></a>
+    <a href="index.html" class="home"> <u>Home</u></a>
     <a href="EFSHOWS.html" class="shows"><u>Shows</u></a>
     <a href="EFVIDEOS.html" class="videos"><u>Videos</u></a>
     <a href="EFCONTACT.html" class="contact"><u>Contact</u></a>
  </div>   
 
-</body>
+ <div class="Ctitle">
+   <p>Contact</p>
+ </div>
+
+
+ <div class= "contact-info">  
+    <p>Always looking for more opportunities to write, act and do standup. Lets work together, hit me up!</p>
+</div>  
+
+
+<div class="contact-box">
+
+
+<div class="socials">
+  <p>For booking inquiries, please contact me at: <a href="mailto:Ethanexavier@gmail.com">Ethanexavier@gmail.com</a>
+You can also reach out and follow me on Instagram: <a href="https://www.instagram.com/ethanexavierfinder/" target="_blank">@ethanexavier</a>
+  </p>
+ </div>
+<img class="CEDOG" src="Pictures&Icons/HandsomePicture.JPG">
+
 </div>
+
+<div class="bottomframe">
+  <p class="tapthatlabel">
+Tap this button if you find Ethan sexually attractive.
+</p>
+ <button class="tapthat">
+  <strong>I'd tap that!</strong>
+</button>
+
+<p class="Vanity">
+  Vanity StatTracker: <span id="counter">0</span>
+</p>
+</div>
+
+
+</div>
+
+
+
+</div>
+<script>
+  console.log(localStorage.getItem('Vanitybank'))
+  document.getElementById('counter').textContent = localStorage.getItem('Vanitybank');
+  const button = document.querySelector('.tapthat');
+  const counter = document.getElementById('counter');
+  let count = localStorage.getItem('Vanitybank')
+    if (count === null) {
+      count = 0;
+    }
+    count = Number (count);
+  button.addEventListener('click', function() {
+    count++;
+    counter.textContent = count;
+    localStorage.setItem('Vanitybank', count);
+  });
+</script>
+</body>
+</html>

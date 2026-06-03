@@ -1,19 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title></b>EF Comedy<b></title>
+    <title>EF Comedy</title>
     <link rel="stylesheet" href="EthanFinderComedy.css">
   </head>
   <body>
 
 <div class="container">
 
+
 <div class="header">
-    <a href="EthanFinderComedy.html" class="home"> <u>Home</u></a>
+    <a href="index.html" class="home"> <u>Home</u></a>
     <a href="EFSHOWS.html" class="shows"><u>Shows</u></a>
     <a href="EFVIDEOS.html" class="videos"><u>Videos</u></a>
     <a href="EFCONTACT.html" class="contact"><u>Contact</u></a>
  </div>   
+
+<div class="shows-box">
+ <div class= "Stitle"> <h1><u>Upcoming Shows</u></h1> </div>
  
-</body>
+ <div class="Event1"><p>  June 4th 2026 : Open Mic @ Mr.Gs Bar and Grill : Free : Starts at 8pm</p></div>
+
+ 
+ <div class="Event2"><p> June 8th 2026 : Open mic @ Planet of the Tapes : Free : Starts at 7:30pm</p></div>
+
+
+<!--
+<div class="Event3"><p></p></div>
+-->
+
+<!--
+<div class="Event4"><p>  </p></div>
+-->
+
+<!--
+<div class="Event5"><p>  </p></div>
+-->
+<p class="Vanity">
+  Vanity StatTracker: <span id="counter">0</span>
+</p>
 </div>
+
+</div>
+
+</div>
+<script>
+  console.log(localStorage.getItem('Vanitybank'))
+  document.getElementById('counter').textContent = localStorage.getItem('Vanitybank');
+  const button = document.querySelector('.tapthat');
+  const counter = document.getElementById('counter');
+  let count = localStorage.getItem('Vanitybank')
+    if (count === null) {
+      count = 0;
+    }
+    count = Number (count);
+  button.addEventListener('click', function() {
+    count++;
+    counter.textContent = count;
+    localStorage.setItem('Vanitybank', count);
+  });
+</script>
+</body>
+</html>
