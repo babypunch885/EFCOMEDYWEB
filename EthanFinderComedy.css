@@ -235,6 +235,14 @@ body {
     color: rgb(0, 0, 0);
 }
 .Event1 {
+    background:rgb(43, 55, 226);
+    color: white;
+    border-color: black;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 15px;
+}
+.Event2 {
     background:rgb(54, 248, 6, 1);
     color: rgb(0, 0, 0);
     border-color: black;
@@ -242,15 +250,6 @@ body {
     border-style: solid;
     border-radius: 15px;
     padding:15px;
-}
-.Event2 {
-    background:rgba(43, 55, 226);
-    color: rgb(251, 251, 251);    
-    border-color: black;
-    border-width: 5px;
-    border-style: solid;
-    border-radius: 15px;
-    padding: 15px;
 }
 .Event3 {
     background:rgb(43, 55, 226);
