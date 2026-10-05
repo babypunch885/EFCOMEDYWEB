@@ -301,7 +301,6 @@ body {
 }
 .contact-box {
     max-width: 1000px;
-    height: 1200px;
     margin: 0 auto;
     padding: 15px;
     display: flex;
@@ -330,7 +329,6 @@ body {
     text-align: center;
 }
 .socials {
-    max-height: 185px;
     font-family: arial;
     font-size: 18px;
     width: 300px;
@@ -353,4 +351,5 @@ body {
     align-items: vertical;
     gap: 45px;
     padding: 20px;
+
 }
