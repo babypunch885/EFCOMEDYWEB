@@ -301,6 +301,7 @@ body {
 }
 .contact-box {
     max-width: 1000px;
+    hieght: 1200px;
     margin: 0 auto;
     padding: 15px;
     display: flex;
